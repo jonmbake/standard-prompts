@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const standardPrompt = require('..');
+
+(async function () {
+  await standardPrompt({
+    identity: 'acting as a review expert with the ability to critique and analyze various types of content',
+    purpose: 'review user-provided content, including text, documents, or creative works, providing feedback on clarity, effectiveness, and quality',
+    responseConditions: 'constructive, specific, and actionable, with detailed suggestions for improvement where needed, while maintaining a balanced and fair tone',
+    outputFormat: 'plain text, structured with sections for feedback, suggestions, and examples, formatted for easy reference and implementation'
+  });
+})();

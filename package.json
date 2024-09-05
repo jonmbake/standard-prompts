@@ -1,0 +1,41 @@
+{
+  "name": "standard-prompts",
+  "version": "1.0.0",
+  "description": "Standard prompts for GPT.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ai_code_qa": "./prompts/ai_code_qa",
+    "ai_code_generate": "./prompts/ai_code_generate",
+    "ai_code_review": "./prompts/ai_code_review",
+    "ai_email_generate": "./prompts/ai_email_generate",
+    "ai_email_review": "./prompts/ai_email_review",
+    "ai_financial_qa": "./prompts/ai_financial_qa",
+    "ai_financial_review": "./prompts/ai_financial_review",
+    "ai_health_qa": "./prompts/ai_health_qa",
+    "ai_health_review": "./prompts/ai_health_review",
+    "ai_summarize": "./prompts/ai_summarize",
+    "ai_review": "./prompts/ai_review",
+    "ai_generate": "./prompts/ai_generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonmbake/standard-prompts.git"
+  },
+  "keywords": [
+    "standard",
+    "prompts",
+    "openai"
+  ],
+  "author": "Jon Bake",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonmbake/standard-prompts/issues"
+  },
+  "homepage": "https://github.com/jonmbake/standard-prompts#readme",
+  "dependencies": {
+    "openai": "^4.57.3"
+  }
+}

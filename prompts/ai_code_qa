@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const standardPrompt = require('..');
+
+(async function () {
+  await standardPrompt({
+    identity: 'acting as an experienced software engineer and code reviewer',
+    purpose: 'answer questions about code input, provide explanations, debug code, and suggest improvements',
+    responseConditions: 'clear, concise, and accurate, with explanations that are easy to understand, and include code snippets or examples when relevant',
+    outputFormat: 'plain text, organized in a manner that can be easily formatted into Markdown, with well-structured sections including explanation, code examples, and suggestions, formatted for easy readability and direct application'
+  });
+})();
