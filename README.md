@@ -6,7 +6,7 @@ Standard AI prompts that can be invoked from the command line. To get started, m
 npm install -g standard-prompts
 ```
 
-_Standard prompts_ uses the [OpenAI API]. Make sure to also set `OPENAI_API_KEY` environment variable (and optionally `OPENAI_API_MODEL`):
+_Standard prompts_ uses the [OpenAI API](https://platform.openai.com/docs/api-reference/introduction). Make sure to also set `OPENAI_API_KEY` environment variable (and optionally `OPENAI_API_MODEL`):
 
 ```
 export OPENAI_API_KEY=<insert-api-key-here>
@@ -82,5 +82,5 @@ Output is generally given as Markdown.
 | `ai_review`      | Reviews a given text input.                       |
 | `ai_summarize`   | Summarizes a given text input.                    |
 
-**Tip**: you can summarize this _Readme_ using _Standard Prompts_: `curl -s https://raw.githubusercontent.com/jonmbake/standard-prompts/master/README | ai_summarize`.
+**Tip**: you can summarize this _Readme_ using _Standard Prompts_: `curl -s https://raw.githubusercontent.com/jonmbake/standard-prompts/main/README.md | ai_summarize`.
 
