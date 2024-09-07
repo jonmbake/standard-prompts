@@ -1,7 +1,7 @@
 {
   "name": "standard-prompts",
-  "version": "1.0.1",
-  "description": "Standard prompts for GPT.",
+  "version": "1.0.2",
+  "description": "Standard AI prompts for the command line.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
