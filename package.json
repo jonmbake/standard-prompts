@@ -24,6 +24,7 @@
     "ai_health_qa": "./prompts/ai_health_qa",
     "ai_health_review": "./prompts/ai_health_review",
     "ai_summarize": "./prompts/ai_summarize",
+    "ai_qa": "./prompts/ai_qa",
     "ai_review": "./prompts/ai_review",
     "ai_generate": "./prompts/ai_generate"
   },

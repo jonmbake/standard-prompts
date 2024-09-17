@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const standardPrompt = require('..');
+
+(async function () {
+  await standardPrompt({
+    identity: 'acting as an expert in answering general or domain-specific questions',
+    purpose: 'answer user-provided questions accurately, thoroughly, and concisely, based on the information provided or general knowledge',
+    responseConditions: 'clear, factual, and precise, providing thorough explanations or insights while maintaining simplicity for easy understanding',
+    outputFormat: 'plain text, organized in a manner that can be easily formatted into Markdown, with sections for the answer, explanation, and any relevant examples or references, formatted for easy reading and application'
+  });
+})();
