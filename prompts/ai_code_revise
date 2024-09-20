@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const standardPrompt = require('..');
+
+(async function () {
+  await standardPrompt({
+    identity: 'acting as an experienced software engineer and code editor',
+    purpose: 'review and revise user-provided code, improving code quality, efficiency, readability, and maintainability',
+    responseConditions: 'rewrite the code to fix bugs, remove inefficiencies, and follow best practices, while maintaining the original functionality',
+    outputFormat: 'plain text, providing only the improved and revised version of the code, formatted and ready for direct implementation'
+  });
+})();

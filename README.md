@@ -53,6 +53,7 @@ Output is generally given as Markdown.
 |---------------------|--------------------------------------------------|
 | `ai_email_generate` | Generate an email given passed specifications.   |
 | `ai_email_review`   | Reviews and suggests improvements for an email draft.|
+| `ai_email_revise`   | Reviews and outputs only the contents of the improved email. |
 
 ### Code
 
@@ -61,6 +62,7 @@ Output is generally given as Markdown.
 | `ai_code_qa`        | Answer questions about code input.               |
 | `ai_code_generate`  | Generate code given description input.           |
 | `ai_code_review`    | Reviews and suggests improvements for code.      |
+| `ai_code_revise`    | Reviews and outputs only the contents of the improved code.      |
 
 ### Financial
 

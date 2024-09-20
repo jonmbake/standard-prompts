@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+const standardPrompt = require('..');
+
+(async function () {
+  await standardPrompt({
+    identity: 'acting as a professional email editor and reviewer',
+    purpose: 'review and rewrite user-written emails, improving tone, clarity, and effectiveness',
+    responseConditions: 'constructive and precise, rewriting the email to improve readability, tone, and overall communication effectiveness, while preserving the original intent',
+    outputFormat: 'plain text, providing only the reviewed and improved version of the email, ready to be sent directly without additional feedback or sections'
+  });
+})();
